@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autorization ADVFN JS Charts</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="auth.css" />
+        <script type="text/javascript" src="auth.js"></script>
+        <script type="text/javascript" src="lib/jquery-1.11.3.min.js"></script>
+    </head>
+    <body>
+            <form id="form_login">
+            <table id="tbl_login">
+                <tr>
+                    <td class="td_label">
+                        <p>User Name</p>
+                    </td>
+                    <td class="td_text">
+                        <input type="text" id="text_login" value="mbtestuk" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_label">
+                        <p>Password</p>
+                    </td>
+                    <td class="td_text">
+                        <input type="password" id="text_password" value="mattmatt" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="td_button">
+                        <button type="button" id="btn_login" onclick="Authenticate();">Login</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
