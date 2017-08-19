@@ -8,6 +8,12 @@
 
     <body style="background:none;margin:10;">
         <div></div>
+        <script>
+	       var JSCHARTS_PARAMS = {"symbol":{"feedSymbol":"L^VOD","displaySymbol":"LSE:VOD"},"paths":{"resources":"https:\/\/zubbkova.github.io\/jscharts\/resources\/","script":"https:\/\/zubbkova.github.io\/jscharts\/script\/"}};
+            $(document).ready(function() {
+                runJSCharts();
+            });
+        </script>
         <div id="rootJSCharts">
             <param name="debug" value="true">
             <param name="language" value="en_GB">
@@ -288,13 +294,6 @@
         <script type="text/javascript" src="script/ChartSymbol.js"></script>
         <script type="text/javascript" src="script/SymbolEdit.js"></script>
         <script type="text/javascript" src="script/SymbolRequest.js"></script>
-
-        <script>
-	       var JSCHARTS_PARAMS = {"symbol":{"feedSymbol":"L^VOD","displaySymbol":"LSE:VOD"},"paths":{"resources":"https:\/\/zubbkova.github.io\/jscharts\/resources\/","script":"https:\/\/zubbkova.github.io\/jscharts\/script\/"}};
-            $(document).ready(function() {
-                runJSCharts();
-            });
-        </script>
         
     </body>
 </html>
