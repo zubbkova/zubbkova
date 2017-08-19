@@ -61,14 +61,14 @@ function Session() {
     if (htmlParams["style"])
         params.set("style", htmlParams["style"].value);
     // symbols: ss0, ss1 .. ssN
-    for (let i = 0; i < 10; i++) {
-        if (htmlParams["ss" + i])
-            params.set("ss" + i, decodeURIComponent(htmlParams["ss" + i].value));
-        else
-            break;
-    }
+//    for (let i = 0; i < 10; i++) {
+//        if (htmlParams["ss" + i])
+//            params.set("ss" + i, decodeURIComponent(htmlParams["ss" + i].value));
+//        else
+//            break;
+//    }
     // take only one symbol from page
-//    params.set("ss0", "9," + JSCHARTS_PARAMS.symbol.feedSymbol + ",6");
+    params.set("ss0", "9," + JSCHARTS_PARAMS.symbol.feedSymbol + ",6");
     //
     
     // studies: s0, s1 ... sN
