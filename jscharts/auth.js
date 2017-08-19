@@ -5,7 +5,7 @@ var Authenticate = function() {
         password = document.getElementById('text_password').value;
     $.ajax({
         type: "POST",
-        url: "http://www.advfn.com/p.php?java=login",
+        url: "https://www.advfn.com/p.php?java=login",
         data: "param=" + encodeURIComponent("username=" + username + "|password=" + password),
         dataType: "text",
         success: function(responseData, textStatus, jqXHR) {
