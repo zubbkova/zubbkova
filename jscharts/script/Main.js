@@ -85,8 +85,8 @@ Main.getChartHeight = function() {
 Main.setParamsKeyValue = function(k, v) {
     Main._params.set(k, v);
 }
-Main._resourcePath = JSCHARTS_PARAMS.paths.resources;
-Main._scriptPath = JSCHARTS_PARAMS.paths.script;
+Main._resourcePath = "/resources";
+Main._scriptPath = "/script";
 Main.getImagesURL= function()
 {
     return Main._resourcePath;
