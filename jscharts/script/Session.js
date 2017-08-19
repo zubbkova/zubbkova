@@ -15,7 +15,7 @@ function Session() {
             let loc = document.location.pathname.substr(0, document.location.pathname.indexOf("index")) + "auth.html";
             window.location = loc;
         } else {
-            window.location = Main.getAdvfnURL() + "common/account/login/";
+            window.location = htmlParams["advfn_url"].value + "common/account/login/";
         }
         return;
     }
