@@ -1,0 +1,25 @@
+[
+  {
+    "relation" : [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target" : {
+      "namespace" : "web",
+      "site" : "https://zubbkova.github.io"
+    }
+  },
+  {
+    "relation" : [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target" : {
+      "namespace" : "android_app",
+      "package_name" : "com.ninjarmm.mobile.dashboard",
+      "sha256_cert_fingerprints" : [
+         "77:15:9A:80:0E:2A:DF:30:3D:91:18:AA:43:66:01:D4:2F:48:CA:9F:0D:7B:45:83:EE:8E:28:C6:E0:CB:23:55"
+      ]
+    }
+  }
+]
